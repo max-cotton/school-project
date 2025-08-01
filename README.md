@@ -1,5 +1,5 @@
 <!-- The following lines generate badges showing the current status of the automated testing (Passing or Failing) and a Python3 badge correspondingly.) -->
-[![tests](https://github.com/mcttn22/school-project/actions/workflows/tests.yml/badge.svg)](https://github.com/mcttn22/school-project/actions/workflows/tests.yml)
+[![tests](https://github.com/max-cotton/school-project/actions/workflows/tests.yml/badge.svg)](https://github.com/max-cotton/school-project/actions/workflows/tests.yml)
 [![python](https://img.shields.io/badge/Python-3-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 
 # A-level Computer Science NEA Programming Project
@@ -11,7 +11,7 @@ This project is an investigation into how Artificial Neural Networks (ANNs) work
 1. Download the Repository with:
 
    - ```
-     git clone https://github.com/mcttn22/school-project.git
+     git clone https://github.com/max-cotton/school-project.git
      ```
    - Or by downloading as a ZIP file
 
@@ -92,13 +92,13 @@ Run Tests with:
 Use Docker with:
 - Build the Docker Image with:
   ```
-  sudo docker build -t mcttn22/school-project ./
+  sudo docker build -t max-cotton/school-project ./
   ```
 - Run the Docker Image with:
   ```
   sudo apt-get install x11-xserver-utils
   xhost +
-  sudo docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY mcttn22/school-project
+  sudo docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY max-cotton/school-project
   ```
 
 Compile Project Report PDF with:
