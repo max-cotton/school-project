@@ -45,11 +45,11 @@ This project is an investigation into how Artificial Neural Networks (ANNs) work
 5. For normal use, install the dependencies and the project to the venv with:
    - Windows:
      ```
-     python setup.py install
+     python -m pip install .
      ```
    - Linux:
      ```
-     python3 setup.py install
+     python3 -m pip install .
      ```
 
 *Note: In order to use an Nvidia GPU for training the networks, the latest Nvdia drivers must be installed and the CUDA Toolkit must be installed from 
@@ -72,11 +72,11 @@ Run with:
 Install the dependencies and the project to the venv in developing mode with:
 - Windows:
   ```
-  python setup.py develop
+  python -m pip install -e .
   ```
 - Linux:
   ```
-  python3 setup.py develop
+  python3 -m pip install -e .
   ```
 
 Run Tests with:
